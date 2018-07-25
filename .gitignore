@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+/target
+manager-controller/target/
+manager-dao/target/
+manager-domian/target/
+manager-service/target/
+### Example user template template
+### Example user template
+# IntelliJ project files
+*.iml
+out
+gen
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
