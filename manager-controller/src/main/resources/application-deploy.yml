@@ -1,0 +1,7 @@
+spring:
+    profiles: deploy
+    # DRUID线程池
+    datasource:
+        url: jdbc:mysql://47.106.185.219/manager?useUnicode=true&characterEncoding=UTF-8&useSSL=false&noAccessToProcedureBodies=true
+        username: chenbo
+        password: 123456
