@@ -28,13 +28,34 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Table(name = "tb_user")
 public class UserDO {
-     /**
-      * 用户名
-      */
-     @Column(name = "username")
-     private String username;
-     /**
-      * 密码     */
-     @Column(name = "password")
-     private String password;
+    /**
+     * 用户名
+     */
+    @Column(name = "username")
+    private String username;
+    /**
+     * 密码
+     */
+    @Column(name = "password")
+    private String password;
+    /**
+     * 邮箱
+     */
+    @Column(name = "email")
+    private String email;
+    /**
+     * 0:未激活;1:已激活
+     */
+    @Column(name = "activated")
+    private Integer activated;
+    /**
+     * 创建时间
+     */
+    @Column(name = "create_time")
+    private String createTime;
+    /**
+     * 更新时间
+     */
+    @Column(name = "update_time")
+    private String updateTime;
 }

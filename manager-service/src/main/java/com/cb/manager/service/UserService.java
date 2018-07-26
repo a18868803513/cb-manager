@@ -8,6 +8,7 @@
 package com.cb.manager.service;
 
 import com.cb.manager.domain.DO.UserDO;
+import com.cb.manager.domain.param.RegisterParam;
 
 /**
  * @File: UserService
@@ -17,4 +18,11 @@ import com.cb.manager.domain.DO.UserDO;
  */
 public interface UserService {
     UserDO get();
+
+    /**
+     * 用户注册
+     * @param param 注册入参
+     * @return
+     */
+    UserDO register(RegisterParam param);
 }
