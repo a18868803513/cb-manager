@@ -1,0 +1,16 @@
+.navbar-inverse button[type="submit"]{
+    background: none;
+    border: none;
+    color: #999;
+}
+.container-fluid{
+    text-align: center;
+}
+.navbar-inverse image{
+    max-width: 40px;
+    margin-top:-10px;
+}
+.logo-style{
+    max-width: 40px;
+    margin-top:-10px;
+}
